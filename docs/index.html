@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='script.js'></script>
+</head>
+<body>
+<div id="labirinth">
+    <form style="text-align:center" name="forma1" autocomplete="on">
+        <table style="margin:0 auto;">
+            <tr>
+                <td style="float:right;">Height:</td>
+                <td><input type="text" id="height" name="height" autofocus="autofocus" maxlength="2" size="6" /></td>
+            </tr>
+            <tr>
+                <td style="float:right;">Width:</td>
+                <td><input type="text" id="width" name="width"  maxlength="2" size="6" /></td>
+            </tr>
+        </table>
+    </form>
+    <input type="button" alt="submit" onClick="datas();" value="New" style="margin-top:10px;" />
+</div>
+<pre id="out"></pre>
+</body>
+</html>
