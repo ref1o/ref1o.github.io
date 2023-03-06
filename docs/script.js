@@ -1,4 +1,4 @@
-function datas() {
+function generate() {
 
     var height = parseInt(document.getElementById("height").value);
     var width = parseInt(document.getElementById("width").value);
